@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaKey } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import image from "assets/img/image 8.png"
 
 import * as S from "./styles";
 import { ButtonComponent } from "components";
@@ -9,7 +10,11 @@ import { ButtonComponent } from "components";
 const Login = () => {
   return (
     <S.Section>
-      <h1>Login</h1>
+
+      <Link to="/">
+       <img src={image} alt="Simbolo do hp" />
+      </Link> 
+
       <form action="cadastrar.html" method="post">
         <label htmlFor="email">E-mail</label>
         <div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { FaKey } from "react-icons/fa";
 import { BsFillPersonFill } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
+import image from "assets/img/image 8.png"
 
 import * as S from "./styles";
 import { ButtonComponent } from "components";
@@ -10,7 +11,9 @@ import { ButtonComponent } from "components";
 const Cadastrar = () => {
   return (
     <S.Section>
-    
+        <Link to="/">
+       <img src={image} alt="Simbolo do hp" />
+      </Link> 
       <form action="cadastrar.html" method="post">
         <label htmlFor="nome">Nome</label>
         <div>

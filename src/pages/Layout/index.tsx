@@ -7,6 +7,7 @@ const Layout = () => {
   return (
     <S.Layout>
       <MenuComponent />
+      <RodapeComponent />
       <main>
         <Outlet />
       </main>

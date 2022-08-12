@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { colors } from "styles/GlobalStyle"
 
 export const Section = styled.section`
-  height: 60vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,8 +20,8 @@ export const Section = styled.section`
     border-radius: 1rem;
     padding: 1.5rem;
     div {
-      background-color: ${colors.secondary};
-      border: 0.15rem solid ${colors.secondary};
+      background-color: ${colors.white};
+      border: 0.15rem solid ${colors.primary};
       border-radius: 0.6rem;
       display: flex;
       margin: 0.5rem 0;
