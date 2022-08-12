@@ -7,19 +7,20 @@ export const Section = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: ${colors.primary};
   h1 {
-    color: ${colors.primary};
+    color: ${colors.secondary};
     font-weight: 500;
     margin-bottom: 2rem;
     font-size: 2rem;
   }
   form {
-    background-color: ${colors.primary};
+    background-color: ${colors.secondary};
     border: 0.2rem solid ${colors.secondary};
     border-radius: 1rem;
     padding: 1.5rem;
     div {
-      background-color: ${colors.primary};
+      background-color: ${colors.secondary};
       border: 0.15rem solid ${colors.secondary};
       border-radius: 0.6rem;
       display: flex;
@@ -34,7 +35,7 @@ export const Section = styled.section`
         width: 100%;
         font-size: 1rem;
         border: 0;
-        background-color: transparent;
+        background-color: #ffff;
       }
     }
     p {

@@ -36,7 +36,7 @@ export const Section = styled.section`
         width: 100%;
         font-size: 1rem;
         border: 0;
-        background-color: #6C5F5F;
+        background-color: #ffff;
       }
     }
     p {

@@ -10,7 +10,7 @@ import { ButtonComponent } from "components";
 const Cadastrar = () => {
   return (
     <S.Section>
-      <h1>Cadastre-se</h1>
+    
       <form action="cadastrar.html" method="post">
         <label htmlFor="nome">Nome</label>
         <div>
